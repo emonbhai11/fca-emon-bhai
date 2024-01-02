@@ -1005,7 +1005,7 @@ function setUserNameAndPassWord() {
     });
 
     console.clear();
-    console.log(gradient('orange', 'yellow').multiline(["█▀█ █▀█ █▀█ ░░█ █▀▀ █▀▀ ▀█▀ █▀▀ ▄▀█ ▀█▀","█▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░ █▄▄ █▀█ ░█░",].join('\n')));
+    console.log(gradient('orange', 'yellow').multiline(["▒█▀▀▀ ▒█▀▄▀█ ▒█▀▀▀█ ▒█▄░▒█\n▒█▀▀▀ ▒█▒█▒█ ▒█░░▒█ ▒█▒█▒█\n▒█▄▄▄ ▒█░░▒█ ▒█▄▄▄█ ▒█░░▀█",].join('\n')));
     console.log();
     console.log(gradient("orange","yellow",)('[ FCA-EMON-BHAI ] > Operating System: ') + (os.type()));
     console.log(gradient("orange","yellow",)('[ FCA-EMON-BHAI ] > Machine Version: ') + (os.version()));
